@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F801932321DE790300305E8F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F801932221DE790300305E8F /* UIColorExtension.swift */; };
 		F851571921D845660095AE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851571821D845660095AE81 /* AppDelegate.swift */; };
 		F851571B21D845660095AE81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851571A21D845660095AE81 /* ViewController.swift */; };
 		F851571E21D845660095AE81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F851571C21D845660095AE81 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F801932221DE790300305E8F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		F851571521D845660095AE81 /* SheepAndGoatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheepAndGoatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F851571821D845660095AE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F851571A21D845660095AE81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F801931D21DE782B00305E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F801931E21DE783B00305E8F /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				F851571C21D845660095AE81 /* Main.storyboard */,
+				F851572121D8456A0095AE81 /* LaunchScreen.storyboard */,
+			);
+			path = "View ";
+			sourceTree = "<group>";
+		};
+		F801931F21DE784500305E8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F851571A21D845660095AE81 /* ViewController.swift */,
+				F851571821D845660095AE81 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F801932121DE787D00305E8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F851571F21D8456A0095AE81 /* Assets.xcassets */,
+				F801932221DE790300305E8F /* UIColorExtension.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F851570C21D845660095AE81 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +90,11 @@
 		F851571721D845660095AE81 /* SheepAndGoatApp */ = {
 			isa = PBXGroup;
 			children = (
-				F851571821D845660095AE81 /* AppDelegate.swift */,
-				F851571A21D845660095AE81 /* ViewController.swift */,
-				F851571C21D845660095AE81 /* Main.storyboard */,
-				F851571F21D8456A0095AE81 /* Assets.xcassets */,
-				F851572121D8456A0095AE81 /* LaunchScreen.storyboard */,
 				F851572421D8456A0095AE81 /* Info.plist */,
+				F801931D21DE782B00305E8F /* Model */,
+				F801931E21DE783B00305E8F /* View  */,
+				F801931F21DE784500305E8F /* Controller */,
+				F801932121DE787D00305E8F /* Supporting Files */,
 			);
 			path = SheepAndGoatApp;
 			sourceTree = "<group>";
@@ -137,6 +172,7 @@
 			files = (
 				F851571B21D845660095AE81 /* ViewController.swift in Sources */,
 				F851571921D845660095AE81 /* AppDelegate.swift in Sources */,
+				F801932321DE790300305E8F /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
